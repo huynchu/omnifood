@@ -96,7 +96,7 @@ body {
   text-decoration: none;
   border-radius: 9px;
 
-  transition: background-color 0.3s;
+  transition: all 0.3s;
 }
 
 .btn--full:link,
@@ -154,4 +154,8 @@ body {
 }
 .grid--4-cols {
   grid-template-columns: repeat(4, 1fr);
+}
+
+strong {
+  font-weight: 500;
 }
